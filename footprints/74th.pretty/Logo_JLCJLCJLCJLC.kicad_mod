@@ -1,0 +1,12 @@
+(footprint "Logo_JLCJLCJLCJLC" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -1.6 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6094be37-cbc2-42ab-b873-8a22c0480da4)
+  )
+  (fp_text value "JLCJLCJLCJLC" (at 0 0 unlocked) (layer "F.SilkS")
+      (effects (font (size 0.8 0.8) (thickness 0.15)))
+    (tstamp 741eb0c2-c7f4-46dc-be8e-d62553535f62)
+  )
+)
