@@ -1,4 +1,4 @@
-(footprint "Package_QFN-28-1EP_4x4mm_P0.4mm_EP2.8x2.8mm" (version 20221018) (generator pcbnew)
+(footprint "Package_QFN-28-1EP_4x4mm_P0.4mm_EP2.8x2.8mm_hand" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "QFN, 28 Pin (http://www.issi.com/WW/pdf/31FL3731.pdf#page=21), generated with kicad-footprint-generator ipc_noLead_generator.py")
   (tags "QFN NoLead")
@@ -7,7 +7,7 @@
       (effects (font (size 0.8 0.8) (thickness 0.12)))
     (tstamp 1f50abfe-2ca6-40b3-9485-c46c4d7cb2e1)
   )
-  (fp_text value "Package_QFN-28-1EP_4x4mm_P0.4mm_EP2.8x2.8mm" (at 0 3.3) (layer "F.Fab") hide
+  (fp_text value "Package_QFN-28-1EP_4x4mm_P0.4mm_EP2.8x2.8mm_hand" (at 0 3.3) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b0702216-a9fc-40a2-a5f4-608948d31abd)
   )
