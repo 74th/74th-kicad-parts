@@ -1,11 +1,11 @@
-(footprint "PinOut_13Pin" (version 20221018) (generator pcbnew)
+(footprint "PinOut_Pin_14" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole)
   (fp_text reference "REF**" (at 0 -1.778) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 2c5eaa3b-0a84-4e98-9e08-280934876fd2)
   )
-  (fp_text value "PinOut_13Pin" (at 0 -3.421) (layer "F.Fab") hide
+  (fp_text value "PinOut_Pin_14" (at 0 -3.421) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5a1221f9-4760-4a05-abf9-37428d0c0e41)
   )
@@ -22,6 +22,7 @@
   (pad "11" thru_hole circle (at 25.4 0) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp f28483fe-f13b-4f31-8134-ab10da995900))
   (pad "12" thru_hole circle (at 27.94 0) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 400dc9eb-ec16-48d6-9d3f-3c13f650fc68))
   (pad "13" thru_hole circle (at 30.48 0) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp a3b13ea1-da6c-4880-9382-d7cd5e138b5f))
+  (pad "14" thru_hole circle (at 33.02 0) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 468217f1-f8ba-4eb2-8edc-b33a132a1530))
   (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Horizontal.wrl" hide
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

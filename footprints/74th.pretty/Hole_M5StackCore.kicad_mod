@@ -1,0 +1,18 @@
+(footprint "Hole_M5StackCore" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 02e6f0fe-9a6f-4080-88f5-6304bf034e93)
+  )
+  (fp_text value "Hole_M5StackCore" (at 0 1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8bd7a221-c162-40de-92fc-71911aef1abd)
+  )
+  (fp_rect (start -27 -27) (end 27 27)
+    (stroke (width 0.12) (type default)) (fill none) (layer "F.SilkS") (tstamp 319f4467-9ddb-48c5-a892-93f545149b0d))
+  (pad "" thru_hole circle (at -22 -22 180) (size 3.7 3.7) (drill 3.2) (layers "*.Cu" "*.Mask") (tstamp dd59aaab-1c16-4327-9f77-bdb6fb87bec0))
+  (pad "" thru_hole circle (at -22 22 180) (size 3.7 3.7) (drill 3.2) (layers "*.Cu" "*.Mask") (tstamp e706f350-36b0-4048-b2af-04b300c9c6de))
+  (pad "" thru_hole circle (at 22 -22 180) (size 3.7 3.7) (drill 3.2) (layers "*.Cu" "*.Mask") (tstamp bb972a83-a2a3-42f9-ae74-d3380f0ede5c))
+  (pad "" thru_hole circle (at 22 22 180) (size 3.7 3.7) (drill 3.2) (layers "*.Cu" "*.Mask") (tstamp 2abb479a-5e6e-4c4f-b0aa-00cf2bc25647))
+)

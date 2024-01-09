@@ -1,0 +1,16 @@
+(footprint "Hole_OLED_0.96inchi" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 2.54 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 9ee36ea5-f913-483d-8035-5f27729f5f12)
+  )
+  (fp_text value "Hole_OLED_0.96inchi" (at 0 1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 47dad5fb-b8e5-46c6-b7c7-2e462aa22f29)
+  )
+  (fp_rect (start -12.5 3.6) (end 12.5 16.2)
+    (stroke (width 0.12) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 5e9c54b8-a7dc-48d0-a4a8-40cbf2348b60))
+  (fp_rect (start -12.8 -1.3) (end 12.8 26)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp dfc4573d-920f-4756-951d-37845df4fcf0))
+)

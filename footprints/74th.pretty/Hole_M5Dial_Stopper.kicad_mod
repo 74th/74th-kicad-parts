@@ -1,0 +1,14 @@
+(footprint "Hole_M5Dial_Stopper" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0.5 13.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 60324af8-fac0-4115-97d6-27c1983e783a)
+  )
+  (fp_text value "Hole_M5Dial_Stopper" (at 0 12 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8b69eb77-2444-4a77-8ec0-7f411227a5d2)
+  )
+  (fp_circle (center 0 0) (end 25.5 0)
+    (stroke (width 0.12) (type default)) (fill none) (layer "Edge.Cuts") (tstamp e10229bb-d47f-4827-aa3b-c0b75b81b63f))
+)
