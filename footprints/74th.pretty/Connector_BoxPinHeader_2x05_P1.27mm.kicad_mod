@@ -53,9 +53,9 @@
   (pad "8" thru_hole oval (at 0.635 1.27) (size 1 1) (drill 0.65) (layers "*.Cu" "*.Mask") (tstamp efccde17-9340-4b3e-abb8-e2450b7ac376))
   (pad "9" thru_hole oval (at -0.635 2.54) (size 1 1) (drill 0.65) (layers "*.Cu" "*.Mask") (tstamp d3a7ff54-1ff0-43de-adcf-3dfdce42ab62))
   (pad "10" thru_hole oval (at 0.635 2.54) (size 1 1) (drill 0.65) (layers "*.Cu" "*.Mask") (tstamp 6d40dffe-5968-4872-99ef-e2ac0c889670))
-  (model "/Users/nnyn/ghq/github.com/74th/my-kicad-parts/footprints/BoxPinHeader_2x05_P1.27mm_Vertical.step"
-    (offset (xyz 0.01 0 -2))
+  (model "${N74TH_3D}/GrabCAD/Connector_BoxPinHeader_2x05_P1.27mm.STEP"
+    (offset (xyz 0.01 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 90))
+    (rotate (xyz -90 0 90))
   )
 )

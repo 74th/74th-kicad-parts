@@ -13,3 +13,4 @@
 ## GrabCAD
 
 - Connector_HY-2.0_TH-Vertical_4Pin https://grabcad.com/library/grove-connectors-stand-and-flat-male-plugs-1
+- Connector_BoxPinHeader_2x05_P1.27mm https://grabcad.com/library/idc-header-0-05-1-27mm-1
