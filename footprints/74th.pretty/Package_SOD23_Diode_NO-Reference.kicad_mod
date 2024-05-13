@@ -1,4 +1,4 @@
-(footprint "Package_SOD23_Diode"
+(footprint "Package_SOD23_Diode_NO-Reference"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -72,14 +72,24 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -1 0.75)
-		(end 1 0.75)
+		(start -2.7 0.75)
+		(end -2.7 -0.75)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b7e784b9-6201-4214-9850-db65a201ccf6")
+		(uuid "02c3bc2f-a3d6-4892-83d6-abfe034f46d2")
+	)
+	(fp_line
+		(start -2.7 0.75)
+		(end 2.7 0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "596a5009-c453-43d7-8075-aabd4fb0379e")
 	)
 	(fp_line
 		(start -0.5 -0.5)
@@ -122,13 +132,53 @@
 		(uuid "ba2721e4-168d-4d60-80c3-204bba384b57")
 	)
 	(fp_line
-		(start 1 -0.75)
-		(end -1 -0.75)
+		(start 2.7 -0.75)
+		(end -2.7 -0.75)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
+		(uuid "be1b0b2d-4863-455b-95ce-61973e3e8425")
+	)
+	(fp_line
+		(start 2.7 0.75)
+		(end 2.7 -0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "623c8171-c6ba-44cf-9af9-66cb07c01c09")
+	)
+	(fp_line
+		(start -2.7 0.75)
+		(end -2.7 -0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f02cf4bd-2a38-4577-b365-5ed790172ac5")
+	)
+	(fp_line
+		(start -2.7 0.75)
+		(end 2.7 0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b7e784b9-6201-4214-9850-db65a201ccf6")
+	)
+	(fp_line
+		(start 2.7 -0.75)
+		(end -2.7 -0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.CrtYd")
 		(uuid "dface27f-6c15-4ddf-85f1-e45997d51b6b")
 	)
 	(fp_line
@@ -138,60 +188,8 @@
 			(width 0.15)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "F.CrtYd")
 		(uuid "61b1601e-1b61-445d-9e5b-b6091c1fbae4")
-	)
-	(fp_line
-		(start -2.7 0.75)
-		(end -2.7 -0.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "456a6121-2a2f-42e1-9bea-28ced54ec5d4")
-	)
-	(fp_line
-		(start 2.7 -0.75)
-		(end -2.7 -0.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "0c044df2-db37-4a85-88f2-c02bbbbc0083")
-	)
-	(fp_line
-		(start 2.7 0.75)
-		(end -2.7 0.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "9b6d7c8f-f425-400e-9b30-9b5c1257c258")
-	)
-	(fp_line
-		(start 2.7 0.75)
-		(end 2.7 -0.75)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "32e5bb97-129d-484c-8b5b-85cbafc00c2c")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 -2 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "01666bfd-7cc4-46d3-8a4c-100f0f803bb5")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-		)
 	)
 	(pad "1" smd rect
 		(at 1.775 0)

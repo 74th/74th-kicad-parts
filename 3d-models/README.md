@@ -4,6 +4,7 @@
 
 - SKRPABE010 https://www.snapeda.com/parts/TL3365AF180QG/E-Switch/view-part/
 - USB-C-Receptacle_SMD_12-Pin https://www.snapeda.com/parts/CQ-USB-C16PSMT01/Shenzen%20Chuangqin%20Technology/view-part/
+- Connector_SH-1.0_SMD_4Pin https://www.snapeda.com/parts/PRT-14417/SparkFun%20Electronics/view-part/
 
 ## Molex
 

@@ -1,14 +1,93 @@
-(footprint "PinOut_Pin_2" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 1.27 -1.778) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 2c5eaa3b-0a84-4e98-9e08-280934876fd2)
-  )
-  (fp_text value "PinOut_Pin_2" (at 1.4 -3.421) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 5a1221f9-4760-4a05-abf9-37428d0c0e41)
-  )
-  (pad "1" thru_hole circle (at 0 0) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp cd8747d6-5f86-48c8-bca6-c375bad9256f))
-  (pad "2" thru_hole circle (at 2.54 0) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp fca76191-6449-4d30-beb3-388827e66ed6))
+(footprint "PinOut_Pin_2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.27 -1.778 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2c5eaa3b-0a84-4e98-9e08-280934876fd2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PinOut_Pin_2"
+		(at 1.4 -3.421 0)
+		(layer "F.Fab")
+		(uuid "5a1221f9-4760-4a05-abf9-37428d0c0e41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "PinOut_Pin_2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc722fb7-e3ad-4725-b485-85bd73a92bc8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b043b0a7-2739-43e5-8c61-8eba6e5d3abb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "430c9195-bc00-4cc5-9297-4cd76b96ee14")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.524 1.524)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cd8747d6-5f86-48c8-bca6-c375bad9256f")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.524 1.524)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fca76191-6449-4d30-beb3-388827e66ed6")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
 )

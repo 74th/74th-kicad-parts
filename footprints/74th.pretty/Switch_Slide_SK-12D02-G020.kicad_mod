@@ -1,0 +1,141 @@
+(footprint "Switch_Slide_SK-12D02-G020"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "96086829-3a4c-4cb5-a16e-e343f90a99c2")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "Switch_Slide_SK-12D02-G020"
+		(at 0 9.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00d88f2a-25f7-4c47-8efb-121e48d50eef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6732f03-665e-4e70-b97d-953483458ca4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "002b306c-1111-4d74-99d8-040b8f016ed2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f52a1b58-ab7b-4b3a-a0d1-f714ff88f490")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -4.3 -2.25)
+		(end 4.3 2.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "af120a93-97e4-4081-9e74-1b6aa9bcd2ad")
+	)
+	(fp_rect
+		(start -5.2 -2.5)
+		(end 5.2 2.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "23bba3e8-41c7-4615-a8ff-099264cc0388")
+	)
+	(pad "" thru_hole circle
+		(at -4.2 0)
+		(size 1.8 1.8)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "24ba4e47-afa3-4f46-af76-e78cffbcaaf3")
+	)
+	(pad "" thru_hole circle
+		(at 4.2 0)
+		(size 1.8 1.8)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ae552b19-429d-449d-bda1-9f8cc1538284")
+	)
+	(pad "1" thru_hole circle
+		(at -2 0)
+		(size 1.1 1.1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "692d2eff-ae63-4645-abff-7d302c0ab60d")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.1 1.1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ce555797-25ef-40dd-89e8-4e6b3f7ee7b1")
+	)
+	(pad "3" thru_hole circle
+		(at 2 0)
+		(size 1.1 1.1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4647f6d3-7546-49de-9ea3-87cf291e6ec2")
+	)
+	(model "/Users/nnyn/ghq/github.com/74th/my-kicad-parts/footprints/Slide_Switch.STEP"
+		(offset
+			(xyz 0 0 -0.5)
+		)
+		(scale
+			(xyz 0.7 0.7 0.7)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
