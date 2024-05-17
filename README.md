@@ -10,3 +10,7 @@
 明記のないものは CC0 (Creative Commons Public License) とします。
 
 いくつかのパーツは KiCad ライブラリーからコピーして使っています。それぞれのディレクトリの README を参照してください。
+
+## Related
+
+- 74thのOpen Source Hardwareのプロジェクト https://github.com/74th/74th-open-source-hardware-projects
