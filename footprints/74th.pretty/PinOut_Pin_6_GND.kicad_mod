@@ -1,4 +1,4 @@
-(footprint "PinOut_Pin_6"
+(footprint "PinOut_Pin_6_GND"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "PinOut_Pin_6"
+	(property "Value" "PinOut_Pin_6_GND"
 		(at 0 -3.421 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -104,12 +104,13 @@
 		(remove_unused_layers no)
 		(uuid "aa9e0d57-2959-44af-9c2c-4a73a2d9c498")
 	)
-	(pad "6" thru_hole circle
+	(pad "6" thru_hole roundrect
 		(at 12.7 0)
 		(size 1.524 1.524)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.1640419948)
 		(uuid "8153715f-721a-4b0d-b925-2b9799a46e96")
 	)
 	(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Horizontal.wrl"

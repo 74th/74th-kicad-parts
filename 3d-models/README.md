@@ -10,6 +10,7 @@
 
 - Connector_USB-C-Receptacle_SMT_12-Pin_MidMount https://www.molex.com/en-us/products/part-detail/2169900002
 - Connector_USB3-A-Receptacle_SMT_9-Pin https://www.molex.com/ja-jp/products/part-detail/484050003
+- Connector_USB-A-Plug_TH https://www.molex.com/ja-jp/products/part-detail/480370001
 
 ## GrabCAD
 

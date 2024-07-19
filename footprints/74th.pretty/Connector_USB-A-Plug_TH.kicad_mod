@@ -1,0 +1,187 @@
+(footprint "Connector_USB-A-Plug_TH"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "93371f1a-80de-4754-a69e-92173f4f9d94")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Connector_USB-A-Plug_TH"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b8258a46-a7b4-4f05-83b4-190ea07a6997")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c86b0d4b-a007-4ee9-a466-919794dd5981")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd91a2d1-fdf7-4378-a655-179c548d8cd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6d73fb9-7e48-4b05-9b2c-5a0fde3eeffe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6 -1.2)
+		(end 6 24.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "42f9c668-a3d5-426e-a952-ae475065baa0")
+	)
+	(fp_line
+		(start -6 2.75)
+		(end 6 2.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "06592f17-8c87-43bc-b62c-4630dc7106c1")
+	)
+	(fp_rect
+		(start -7.5 -3)
+		(end 7.25 13.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "2a2f90a2-5ac2-4509-86ec-71dc088a3d0e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0cf77085-362c-43bc-946d-50d24d5540bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole oval
+		(at -5.7 0)
+		(size 1.6 3.5)
+		(drill oval 1 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bfaeab29-345a-48ad-bc16-9186eb91c349")
+	)
+	(pad "" np_thru_hole circle
+		(at -2.25 0)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "9b72f91c-8f01-4460-9fbf-b995caab6752")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.25 0)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "109acaa9-63a7-4fa5-8c52-9c73e76b6111")
+	)
+	(pad "" thru_hole oval
+		(at 6 0)
+		(size 1.6 3.5)
+		(drill oval 1 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "54ef47b4-4eaf-4219-814b-aeb307981035")
+	)
+	(pad "1" thru_hole circle
+		(at 3.5 -2)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4455226b-a483-4812-ab01-7c1246a6ea8c")
+	)
+	(pad "2" thru_hole circle
+		(at 1 -2)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1da72362-f8e2-4c61-b0ea-4e090c9addb9")
+	)
+	(pad "3" thru_hole circle
+		(at -1 -2)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1fc78f04-9be0-4117-a4ea-4a832dfd6d21")
+	)
+	(pad "4" thru_hole circle
+		(at -3.5 -2)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c586b4a8-e58a-4f3e-bc2e-7a00b1f3c7f3")
+	)
+	(model "${N74TH_3D}/Molex/480370001.stp"
+		(offset
+			(xyz 0 -8.4 0.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
