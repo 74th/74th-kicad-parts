@@ -4171,7 +4171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RP2350_80QFN_minimal:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
+		(property "Footprint" "74th:Package_QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm_hand"
 			(at 2.54 -60.96 0)
 			(effects
 				(font
@@ -5355,7 +5355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RP2350_80QFN_minimal:RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias"
+		(property "Footprint" "74th:Package_QFN-80-1EP_10x10mm_P0.4mm_EP3.4x3.4mm_hand_1"
 			(at -19.05 0 0)
 			(effects
 				(font
