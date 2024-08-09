@@ -1202,7 +1202,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" ""
 			(at 1.27 -7.62 0)
 			(effects
 				(font
@@ -1212,7 +1212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" ""
 			(at 2.54 -9.525 0)
 			(effects
 				(font
