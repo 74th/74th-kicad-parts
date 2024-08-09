@@ -23,7 +23,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "74th:Package_SOT-223-3"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -159,7 +159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+		(property "Footprint" "74th:Package_SOT-89-3"
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -411,7 +411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "74th:Package_SOT-23"
 			(at 16.51 -6.35 0)
 			(effects
 				(font
