@@ -608,7 +608,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "db6f89d3-5a5e-4f48-91fc-6dc0e0d7a173")
 	)
-	(pad "60" thru_hole roundrect
+	(pad "61" thru_hole roundrect
 		(at 0 0)
 		(size 3.4 3.4)
 		(drill 2.8)
