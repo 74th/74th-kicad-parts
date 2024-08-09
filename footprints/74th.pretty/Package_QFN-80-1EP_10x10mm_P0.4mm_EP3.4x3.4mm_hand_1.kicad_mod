@@ -584,12 +584,13 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "c77626a8-754e-4d3f-b336-d483380d33d0")
 	)
-	(pad "57" thru_hole rect
+	(pad "57" thru_hole roundrect
 		(at 0 0)
 		(size 3.4 3.4)
 		(drill 2.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.04411764706)
 		(zone_connect 1)
 		(uuid "acaace67-bd95-4b8d-8e85-f7b9d22b1332")
 	)

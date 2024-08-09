@@ -9,4 +9,5 @@
 
 ### 74th_MCU
 
-- RP2040: https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf (no limitation)
+- RP2040: https://datasheets.raspberrypi.com/pico/RPi-Pico-R3-PUBLIC-20200119.zip
+- RP2350B: https://datasheets.raspberrypi.com/pico/RPi-Pico-2-PUBLIC-20240708.zip
