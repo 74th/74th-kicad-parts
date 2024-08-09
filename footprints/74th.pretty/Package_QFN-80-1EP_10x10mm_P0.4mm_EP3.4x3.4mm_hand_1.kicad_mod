@@ -584,16 +584,6 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "c77626a8-754e-4d3f-b336-d483380d33d0")
 	)
-	(pad "57" thru_hole roundrect
-		(at 0 0)
-		(size 3.4 3.4)
-		(drill 2.8)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.04411764706)
-		(zone_connect 1)
-		(uuid "acaace67-bd95-4b8d-8e85-f7b9d22b1332")
-	)
 	(pad "57" smd rect
 		(at 5.2 -2.6 270)
 		(size 0.2 1.35)
@@ -737,6 +727,16 @@
 		(size 0.2 1.35)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "648e5284-98c6-4675-904e-98c46dccc4d3")
+	)
+	(pad "81" thru_hole roundrect
+		(at 0 0)
+		(size 3.4 3.4)
+		(drill 2.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.04411764706)
+		(zone_connect 1)
+		(uuid "acaace67-bd95-4b8d-8e85-f7b9d22b1332")
 	)
 	(model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm.wrl"
 		(offset
