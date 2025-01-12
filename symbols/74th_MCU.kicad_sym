@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "74th:Package_TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 17.78 -12.7 0)
 			(effects
 				(font

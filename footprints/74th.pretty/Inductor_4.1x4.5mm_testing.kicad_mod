@@ -1,0 +1,151 @@
+(footprint "Inductor_4.1x4.5mm_testing"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.55 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1d6efe4e-5c24-4fb2-a6fd-f17540cde7dc")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "Inductor_4.1x4.5mm_testing"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ab075f5a-d272-4fef-b088-155e19b9ef5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c140e697-bc28-4a48-b363-6b5acc597b99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d26361c-6cdd-4de8-9489-bb41bd815287")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "637dfb5d-5034-4828-b84f-b88b9f737066")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.2 -0.9)
+		(end 0.2 -0.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c56c828c-fecd-4974-bc22-749497527b3c")
+	)
+	(fp_line
+		(start -0.2 0.9)
+		(end 0.2 0.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5271af70-6af9-48bf-aff4-5852160e2325")
+	)
+	(fp_rect
+		(start -2.6 -2.1)
+		(end 2.6 2.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "7651f935-72d4-44b5-99be-8215bc5d4b36")
+	)
+	(fp_rect
+		(start -1 -0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "e0998f2b-3a68-4836-99b8-34198c8c4e4f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "33ebf14f-97e4-4abc-be8e-70904b32e88a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.4 0)
+		(size 2.3 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.09842519685)
+		(thermal_bridge_angle 45)
+		(uuid "c3fad1dd-62a3-4812-a46b-9d0931b3be57")
+	)
+	(pad "2" smd roundrect
+		(at 1.4 0)
+		(size 2.3 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.09842519685)
+		(thermal_bridge_angle 45)
+		(uuid "52b9cb9a-aeeb-4d65-81ad-84f6375166b9")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Abracon_ASPI-0425.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.5 0.4 0.4)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

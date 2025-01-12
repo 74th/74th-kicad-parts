@@ -1,10 +1,10 @@
-(footprint "PinOut_Pin_2"
+(footprint "PinOut_Pin_3_2GND"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 1.27 -1.778 0)
+		(at 0 -1.778 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "2c5eaa3b-0a84-4e98-9e08-280934876fd2")
@@ -15,9 +15,10 @@
 			)
 		)
 	)
-	(property "Value" "PinOut_Pin_2"
-		(at 1.4 -3.421 0)
+	(property "Value" "PinOut_Pin_3_2GND"
+		(at 0 -3.421 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "5a1221f9-4760-4a05-abf9-37428d0c0e41")
 		(effects
 			(font
@@ -26,12 +27,11 @@
 			)
 		)
 	)
-	(property "Footprint" "PinOut_Pin_2"
+	(property "Footprint" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cc722fb7-e3ad-4725-b485-85bd73a92bc8")
+		(uuid "ff36259f-3781-4590-b45b-81a92381a97a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,10 +41,9 @@
 	)
 	(property "Datasheet" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b043b0a7-2739-43e5-8c61-8eba6e5d3abb")
+		(uuid "69e68688-4244-4b6d-b4fe-6bcae775fa2c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,10 +53,9 @@
 	)
 	(property "Description" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "430c9195-bc00-4cc5-9297-4cd76b96ee14")
+		(uuid "efb1f7c8-7053-4ac3-a51c-b0460dee2b16")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -74,15 +72,24 @@
 		(remove_unused_layers no)
 		(uuid "cd8747d6-5f86-48c8-bca6-c375bad9256f")
 	)
-	(pad "2" thru_hole circle
+	(pad "2" thru_hole roundrect
 		(at 2.54 0)
 		(size 1.524 1.524)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "fca76191-6449-4d30-beb3-388827e66ed6")
+		(roundrect_rratio 0.09842519685)
+		(uuid "59a5c96f-15db-41fa-800c-b53d4c15b37c")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.524 1.524)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b247627b-2a2e-42f9-92e5-81f105dc8272")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Horizontal.wrl"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
