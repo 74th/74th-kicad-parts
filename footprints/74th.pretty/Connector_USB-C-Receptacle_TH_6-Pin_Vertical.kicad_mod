@@ -138,7 +138,7 @@
 		(remove_unused_layers no)
 		(uuid "88528d89-ff94-4dae-81ee-38674e6b96bd")
 	)
-	(pad "FG" thru_hole oval
+	(pad "S1" thru_hole oval
 		(at -4.32 -0.27)
 		(size 1 2.2)
 		(drill oval 0.6 1.8)
@@ -146,7 +146,7 @@
 		(remove_unused_layers no)
 		(uuid "0d8c5938-ba98-4dbd-8105-4ab59292985e")
 	)
-	(pad "FG" thru_hole oval
+	(pad "S1" thru_hole oval
 		(at 4.32 -0.27)
 		(size 1 2.2)
 		(drill oval 0.6 1.8)
