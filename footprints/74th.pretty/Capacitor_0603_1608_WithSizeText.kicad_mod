@@ -167,7 +167,6 @@
 	)
 	(fp_text user "${VALUE}"
 		(at 0 1.4 0)
-		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "99d1158b-6c9f-4ff7-9d77-164a69684bf3")
 		(effects
