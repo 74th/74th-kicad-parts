@@ -1,11 +1,10 @@
 (footprint "Switch_Slide_SK-12D02-G020"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -3 0)
-		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "96086829-3a4c-4cb5-a16e-e343f90a99c2")
 		(effects
@@ -28,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e6732f03-665e-4e70-b97d-953483458ca4")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,20 +49,80 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr through_hole)
-	(fp_rect
+	(fp_line
 		(start -4.3 -2.25)
-		(end 4.3 2.25)
+		(end -4.3 -1)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type default)
 		)
-		(fill none)
 		(layer "F.SilkS")
-		(uuid "af120a93-97e4-4081-9e74-1b6aa9bcd2ad")
+		(uuid "a3a02adc-322a-4cfd-bf4c-85e6259f4ac3")
+	)
+	(fp_line
+		(start -4.3 -2.25)
+		(end 4.3 -2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "84d1a221-cfa4-4004-8fbb-2c9076ca264b")
+	)
+	(fp_line
+		(start -4.3 1)
+		(end -4.3 2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3161ca7d-c21d-49bc-ad2a-479d3afb86a2")
+	)
+	(fp_line
+		(start 4.3 -2.25)
+		(end -4.3 -2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2f555865-2b92-4119-8271-2523762fe054")
+	)
+	(fp_line
+		(start 4.3 -2.25)
+		(end 4.3 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b0283129-55ad-4e75-a199-1f2c2c1059df")
+	)
+	(fp_line
+		(start 4.3 1)
+		(end 4.3 2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c1ee08ce-eb1e-4142-9400-f8a44a381805")
+	)
+	(fp_line
+		(start 4.3 2.25)
+		(end -4.3 2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d2bd8f45-f3ef-455b-bd5c-6071a5fe31ef")
 	)
 	(fp_rect
 		(start -5.2 -2.5)
@@ -83,7 +131,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "23bba3e8-41c7-4615-a8ff-099264cc0388")
 	)
@@ -127,6 +175,7 @@
 		(remove_unused_layers no)
 		(uuid "4647f6d3-7546-49de-9ea3-87cf291e6ec2")
 	)
+	(embedded_fonts no)
 	(model "/Users/nnyn/ghq/github.com/74th/my-kicad-parts/footprints/Slide_Switch.STEP"
 		(offset
 			(xyz 0 0 -0.5)

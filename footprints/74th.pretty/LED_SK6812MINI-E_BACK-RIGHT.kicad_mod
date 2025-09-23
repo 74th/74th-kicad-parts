@@ -1,7 +1,7 @@
 (footprint "LED_SK6812MINI-E_BACK-RIGHT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 3.175 0)
@@ -16,23 +16,11 @@
 	)
 	(property "Value" "LED_SK6812MINI-E_BACK-RIGHT"
 		(at 0 -3 0)
-		(layer "B.Fab")
+		(layer "F.Fab")
 		(uuid "b761d83d-cc7c-4b8a-9214-44e0a8b174c3")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b6cb04e1-f0b9-4859-b18a-cdf323447414")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -317,27 +305,28 @@
 	(pad "1" smd rect
 		(at 2.75 -0.7)
 		(size 1.7 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1992e89a-6156-41a5-84ea-f4b61e1c10cc")
 	)
 	(pad "2" smd rect
 		(at 2.75 0.7)
 		(size 1.7 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "356a0948-8c4b-4345-9a5e-ed6db843a675")
 	)
 	(pad "3" smd rect
 		(at -2.75 0.7)
 		(size 1.7 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9701631f-e885-4d4b-b8e8-e54cb4ae715d")
 	)
 	(pad "4" smd rect
 		(at -2.75 -0.7)
 		(size 1.7 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7327bb88-63f9-4991-bf77-1802b56e003e")
 	)
+	(embedded_fonts no)
 	(model "/Users/nnyn/ghq/github.com/74th/my-kicad-parts/footprints/SK6812MINI-E.step"
 		(offset
 			(xyz 0 0 -0.45)
