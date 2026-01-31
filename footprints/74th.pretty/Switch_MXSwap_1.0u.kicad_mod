@@ -318,7 +318,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "/Users/nnyn/ghq/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/CherryMX Switch.step"
+	(model "${GITHUB_FOOSTAN_KBD}/kicad-packages3D/kbd.3dshapes/CherryMX Switch.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -329,7 +329,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "/Users/nnyn/ghq/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/Kailh-CherryMX-Socket.step"
+	(model "${GITHUB_FOOSTAN_KBD}/kicad-packages3D/kbd.3dshapes/Kailh-CherryMX-Socket.step"
 		(offset
 			(xyz -1.2 7.7 -3.6)
 		)

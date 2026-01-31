@@ -421,14 +421,14 @@
 		(uuid "d8182d60-4f4c-4963-b83e-0b84c63a2287")
 	)
 	(pad "1" smd rect
-		(at 6.9 2.54)
-		(size 2 2)
+		(at 7.4 2.54)
+		(size 3 2)
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "16f1f65c-6bae-4e3e-949e-5d22a7d5dcd9")
 	)
 	(pad "2" smd rect
-		(at -5.6 5.08)
-		(size 2 2)
+		(at -6.1 5.08)
+		(size 3 2)
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "af5a4141-fe46-49c1-9c31-e552f8e4acd5")
 	)
@@ -448,7 +448,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "/Users/nnyn/ghq/github.com/koktoh/BrownSugar_KBD_KiCad_Library/BrownSugar_KBD/BrownSugar_KBD.3D/keyswitch_model/stabilizer/screw_in/KiCad/stabilizer_2u.wrl"
+	(model "${GITHUB_KOKTOH_BROWNSUGAR_KBD}/BrownSugar_KBD/BrownSugar_KBD.3D/keyswitch_model/stabilizer/screw_in/KiCad/stabilizer_2u.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -459,7 +459,7 @@
 			(xyz -0 -0 -0)
 		)
 	)
-	(model "/Users/nnyn/ghq/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/CherryMX Switch.step"
+	(model "${GITHUB_FOOSTAN_KBD}/kicad-packages3D/kbd.3dshapes/CherryMX Switch.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -470,7 +470,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "/Users/nnyn/ghq/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/Kailh-CherryMX-Socket.step"
+	(model "${GITHUB_FOOSTAN_KBD}/kicad-packages3D/kbd.3dshapes/Kailh-CherryMX-Socket.step"
 		(offset
 			(xyz 1.3 -7.7 -3.6)
 		)

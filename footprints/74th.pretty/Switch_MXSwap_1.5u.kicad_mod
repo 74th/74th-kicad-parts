@@ -313,19 +313,19 @@
 		(uuid "c1a59959-ac08-44fa-922e-7f11abc488d3")
 	)
 	(pad "1" smd rect
-		(at -6.9 -2.54 180)
-		(size 2 2)
+		(at -7.4 -2.54 180)
+		(size 3 2)
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "cba26037-48e6-42c1-aab3-b39732f9ae83")
 	)
 	(pad "2" smd rect
-		(at 5.6 -5.08 180)
-		(size 2 2)
+		(at 6.1 -5.08 180)
+		(size 3 2)
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "f28dca5e-145d-4e23-9c56-87bcb65da7db")
 	)
 	(embedded_fonts no)
-	(model "/Users/nnyn/ghq/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/CherryMX Switch.step"
+	(model "${GITHUB_FOOSTAN_KBD}/kicad-packages3D/kbd.3dshapes/CherryMX Switch.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -336,7 +336,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "/Users/nnyn/ghq/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/Kailh-CherryMX-Socket.step"
+	(model "${GITHUB_FOOSTAN_KBD}/kicad-packages3D/kbd.3dshapes/Kailh-CherryMX-Socket.step"
 		(offset
 			(xyz -1.2 7.7 -3.6)
 		)
