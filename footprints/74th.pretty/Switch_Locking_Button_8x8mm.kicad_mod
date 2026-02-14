@@ -1,0 +1,137 @@
+(footprint "Switch_Locking_Button_8x8mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.08 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "41e1dd0e-d896-4ab7-9b6f-1c3b675abfed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Switch_Locking_Button_8x8mm"
+		(at 0 -6.985 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cc58df7b-3de7-45ad-9dad-b1a555865367")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "647f6d9c-8644-4a04-ba5b-9c8f8721b744")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9887fbd0-3519-4201-9277-dc0bcf06266a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -4 -4)
+		(end 4 4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "42f88c85-a658-4d12-b792-b18c3bbb88a7")
+	)
+	(fp_rect
+		(start -4.2 -4.2)
+		(end 4.2 4.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "948ae84c-46cf-4ea9-8fd2-95f630f698dd")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 -2.9)
+		(size 1.6 1.6)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a3b563df-c2e3-4e8e-ad98-face11cfb81d")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.9)
+		(size 1.6 1.6)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3e1ddd3e-172b-4449-b7d0-efa1356e228c")
+	)
+	(pad "3" thru_hole circle
+		(at 2.5 -2.9)
+		(size 1.6 1.6)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6102ad7c-750d-40f5-8c84-4134837239fb")
+	)
+	(pad "4" thru_hole circle
+		(at 2.5 2.9)
+		(size 1.6 1.6)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e012aa22-3ffa-47f9-9753-9570869cc7d5")
+	)
+	(pad "5" thru_hole circle
+		(at 0 2.9)
+		(size 1.6 1.6)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "158af5e1-949a-4eea-9cb1-c4ca9c0d0a3f")
+	)
+	(pad "6" thru_hole circle
+		(at -2.5 2.9)
+		(size 1.6 1.6)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "89b09779-b8e6-4055-861f-0436b0e048f4")
+	)
+	(embedded_fonts no)
+	(model "/Users/nnyn/ghq/github.com/74th/my-kicad-parts/footprints/Locking_Button_8x8mm.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1.2 1.2 1.2)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

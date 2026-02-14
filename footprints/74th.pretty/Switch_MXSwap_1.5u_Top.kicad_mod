@@ -1,12 +1,13 @@
-(footprint "Switch_MXChoc_1.0u_Top"
+(footprint "Switch_MXSwap_1.5u_Top"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "SW2"
 		(at 7 8.1 0)
-		(layer "Eco2.User")
-		(uuid "605f65ce-bdd4-4972-b13a-3394d0fad76a")
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b14058f2-585d-44cc-a69e-39f730bb5aad")
 		(effects
 			(font
 				(size 1 1)
@@ -18,7 +19,7 @@
 		(at -7.4 -8.1 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d6bd7926-b574-46bf-829d-7838a7bdc8bc")
+		(uuid "18f81b48-f325-45f5-8a02-c2473bbe9010")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3ba6fabe-8717-4f22-8996-704e6d94fee6")
+		(uuid "d5856cb7-b94e-427f-8929-23fd8e71e23c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9855b67e-54be-497f-b342-13ff4d9ea6c8")
+		(uuid "167ba6c0-cd6a-4520-bf5f-91617efec155")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,44 +53,44 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -9.5 -9.5)
-		(end 9.5 -9.5)
+		(start -14.25 -9.5)
+		(end 14.25 -9.5)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "Eco2.User")
-		(uuid "12b5b1d6-ce5f-4056-8a3d-13639304c9cd")
+		(uuid "7994a260-39eb-4453-af12-6e6f00764428")
 	)
 	(fp_line
-		(start -9.5 9.5)
-		(end -9.5 -9.5)
+		(start -14.25 9.5)
+		(end -14.25 -9.5)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "Eco2.User")
-		(uuid "a8685dce-5a74-454a-aaf8-75f825886763")
+		(uuid "d32e8011-0c3b-458f-8e32-a02564bb6e01")
 	)
 	(fp_line
-		(start 9.5 -9.5)
-		(end 9.5 9.5)
+		(start 14.25 -9.5)
+		(end 14.25 9.5)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "Eco2.User")
-		(uuid "cf0a002f-15bd-449a-80aa-f993927e673b")
+		(uuid "1aa198f7-49bb-4e27-adb6-5bae8f32eda8")
 	)
 	(fp_line
-		(start 9.5 9.5)
-		(end -9.5 9.5)
+		(start 14.25 9.5)
+		(end -14.25 9.5)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "Eco2.User")
-		(uuid "e7b3c24e-d3a6-4f97-a11c-e5114b50290f")
+		(uuid "bd8d40ba-2d14-40eb-95e8-99c33ee26d21")
 	)
 	(fp_rect
 		(start -7 -7)
@@ -100,7 +101,18 @@
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "a55581be-d79e-4ba3-b13b-ee2ad4abbde9")
+		(uuid "2e03f12d-003d-4ffa-96bd-0ef9614a4a1c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -4.826 7.747 0)
+		(layer "Eco2.User")
+		(uuid "675cfb9f-68c2-4408-a3f2-73bb0fd7edc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(embedded_fonts no)
 )
