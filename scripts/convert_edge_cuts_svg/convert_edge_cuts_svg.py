@@ -6,7 +6,7 @@ KiCad Edge.Cuts SVG をレーザーカット用に整形するスクリプト。
 - 同じ端点を持つパスを結合して 1 つの連続したループにまとめる。
 
 使い方:
-	python convert.py input.svg [-o output.svg]
+	python convert_edge_cuts_svg.py input.svg [-o output.svg]
 
 標準出力へ書き出す場合は -o を省略する。
 """
